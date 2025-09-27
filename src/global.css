@@ -1,0 +1,38 @@
+:root {
+  --cor-primaria: #007bff;
+  --cor-fundo: #e3e3e3;
+  --cor-texto: #778ffd;
+  --fonte-principal: 'Inter', sans-serif;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o <body> */
+body {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilos base para outros elementos */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+a {
+  color: var(--cor-primaria);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
